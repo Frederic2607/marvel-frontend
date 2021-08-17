@@ -1,0 +1,27 @@
+.pagination-page {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination-container {
+  font-size: 2rem;
+  margin-left: 40rem;
+  color: #fff;
+}
+
+.decrement-btn {
+  margin-right: 1rem;
+}
+
+.increment-btn {
+  margin-left: 1rem;
+}
+
+.decrement-btn,
+.increment-btn {
+  border: none;
+  font-size: 2rem;
+  background-color: #ed1d24;
+  color: #fff;
+  cursor: pointer;
+}

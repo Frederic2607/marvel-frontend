@@ -1,0 +1,36 @@
+.identify-page p.bubble {
+  position: relative;
+  width: 300px;
+  text-align: center;
+  line-height: 1.4em;
+  /* margin: 40px auto; */
+  background-color: #fff;
+  border: 2px solid #a9a9a9;
+  border-radius: 30px;
+  font-family: "Roboto";
+  padding: 20px;
+  font-size: large;
+  margin-left: 85rem;
+}
+
+.identify-page p.bubble:before,
+.identify-page p.bubble:after {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.identify-page p.speech:before {
+  right: 35px;
+  bottom: -36px;
+  border: 18px solid;
+  border-color: #a9a9a9 transparent transparent #a9a9a9;
+}
+
+.identify-page p.speech:after {
+  right: 38px;
+  bottom: -30px;
+  border: 15px solid;
+  border-color: #fff transparent transparent #fff;
+}

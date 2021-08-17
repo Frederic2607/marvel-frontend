@@ -1,0 +1,52 @@
+.signup-page {
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 2rem;
+}
+.signup-page img {
+  width: 40rem;
+}
+
+.signup-page > p {
+  margin-top: 20rem;
+  margin-bottom: 2rem;
+}
+
+.signup-page p.bubble {
+  position: relative;
+  width: 30rem;
+  text-align: center;
+  line-height: 1.4em;
+  background-color: #fff;
+  border: 0.2rem solid #a9a9a9;
+  border-radius: 30px;
+  font-family: "Roboto";
+  padding: 2rem;
+  font-size: large;
+  margin-left: 10rem;
+}
+
+.signup-page p.bubble:before,
+.signup-page p.bubble:after {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.signup-page p.speech:before {
+  right: 3.5rem;
+  bottom: -3.6rem;
+  border: 1.8rem solid;
+  border-color: #a9a9a9 transparent transparent #a9a9a9;
+}
+
+.signup-page p.speech:after {
+  right: 3.8rem;
+  bottom: -3rem;
+  border: 1.5rem solid;
+  border-color: #fff transparent transparent #fff;
+}

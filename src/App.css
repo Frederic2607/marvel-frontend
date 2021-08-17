@@ -1,0 +1,195 @@
+/* GLOBAL RULES */
+
+/* 1rem = 10px */
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: darkgrey;
+  font-family: "Roboto";
+}
+.container {
+  width: 128rem;
+  margin: 0 auto;
+}
+
+/* IDENTIFY */
+.identify-container {
+  width: 128rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.img-wolverine {
+  margin-top: 5rem;
+}
+.btn-signup,
+.btn-login {
+  height: 5rem;
+  width: 15rem;
+  margin-top: 13rem;
+  font-size: 2rem;
+  font-family: "Roboto";
+  font-weight: 700;
+  color: #fff;
+  background-color: #ed1d24;
+  border-radius: 0.5rem;
+  border: solid 0.1rem #ed1d24;
+  outline: none;
+  box-shadow: 5px 5px 5px #fff;
+  cursor: pointer;
+}
+
+/* CHARACTERS */
+.character-container {
+  width: 100%;
+  display: flex;
+}
+.card-searcher img {
+  margin-right: 13rem;
+  margin-left: 2rem;
+  width: 35rem;
+}
+
+/* COMICS */
+.comics-container {
+  display: flex;
+}
+
+/* CHARACTERS & COMICS & COMICSofCHAR */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.bubble-search {
+  margin-left: 6rem;
+}
+.bubble-search p.bubble {
+  position: relative;
+  width: 300px;
+  text-align: center;
+  line-height: 1.4em;
+  background-color: #fff;
+  border: 2px solid #a9a9a9;
+  border-radius: 30px;
+  font-family: "Roboto";
+  padding: 20px;
+  font-size: large;
+}
+
+.bubble-search p.bubble:before,
+.bubble-search p.bubble:after {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.bubble-search p.speech:before {
+  right: 35px;
+  bottom: -36px;
+  border: 18px solid;
+  border-color: #a9a9a9 transparent transparent #a9a9a9;
+}
+
+.bubble-search p.speech:after {
+  right: 38px;
+  bottom: -30px;
+  border: 15px solid;
+  border-color: #fff transparent transparent #fff;
+}
+
+/* CARD */
+.card {
+  width: 30rem;
+  height: 50rem;
+  border-radius: 0.5rem;
+  background-color: #333;
+  box-shadow: 5px 5px 5px #202020;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 2rem 1rem 1rem;
+  position: relative;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-content > h2 {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  overflow: hidden;
+  font-size: 1.6rem;
+  padding-top: 0.5rem;
+}
+.card-description {
+  height: 12rem;
+}
+.card-heart-char {
+  position: absolute;
+  left: 0.8rem;
+  top: 5rem;
+  color: #ed1d24;
+  cursor: pointer;
+}
+.card-heart-comics {
+  position: absolute;
+  left: 0.8rem;
+  top: 5rem;
+  color: #ed1d24;
+  cursor: pointer;
+}
+.card-description {
+  padding: 0.8rem;
+  text-align: justify;
+  font-size: 1.2rem;
+  overflow: hidden;
+}
+.card img {
+  width: 21rem;
+  height: 31.5rem;
+  object-fit: cover;
+}
+.modal {
+  position: absolute;
+  top: 20rem;
+  left: 80rem;
+  right: 80rem;
+  bottom: 40rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem 1rem;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(0, 0, 0, 0.8);
+}
+
+.modal p {
+  font-size: 1.9rem;
+  line-height: 2.7rem;
+  text-align: center;
+}
+
+.modal button {
+  width: 20rem;
+  font-weight: bold;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  border: 0.1rem solid #ed1d24;
+  background: transparent;
+  cursor: pointer;
+}

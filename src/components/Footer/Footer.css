@@ -1,0 +1,17 @@
+.footer {
+  width: 100%;
+  margin-top: 30rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+  font-size: 1.6rem;
+}
+.footer span {
+  font-weight: bold;
+  color: #ed1d24;
+}
+a {
+  text-decoration: none;
+  color: #ed1d24;
+}

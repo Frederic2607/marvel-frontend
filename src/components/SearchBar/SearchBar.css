@@ -1,0 +1,8 @@
+.searchBar input {
+  border: none;
+  outline: none;
+  width: 30rem;
+  margin-left: 1.5rem;
+  font-size: 1.6rem;
+  font-family: "Roboto";
+}
