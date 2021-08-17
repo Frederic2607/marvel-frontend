@@ -9,7 +9,7 @@ import Modal from "react-modal";
 Modal.setAppElement("#root");
 
 const Card = (props) => {
-  const { elem, character, comics, favorite, setFavorite, heart } = props;
+  const { elem, character, favorite, setFavorite, heart } = props;
 
   const [modalIsOpen, setModalIsOpen] = useState(false);
 
@@ -62,7 +62,7 @@ const Card = (props) => {
                 <p>{elem.description}</p>
               </div>
             </>
-          ) : comics ? (
+          ) : (
             <>
               <FontAwesomeIcon
                 icon="heart"
@@ -90,7 +90,7 @@ const Card = (props) => {
                 <p>{elem.description}</p>
               </div>
             </>
-          ) : null}
+          )}
         </div>
       </div>
     </div>

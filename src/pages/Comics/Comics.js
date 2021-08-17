@@ -58,7 +58,6 @@ const Comics = (props) => {
               <Card
                 key={elem._id}
                 elem={elem}
-                comics={true}
                 favorite={favorite}
                 setFavorite={setFavorite}
                 heart={true}
