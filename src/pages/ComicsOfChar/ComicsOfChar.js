@@ -21,7 +21,7 @@ const ComicsOfChar = (props) => {
   useEffect(() => {
     const fetchData = async () => {
       const response = await axios.get(
-        `http://localhost:3100/comics/${characterId}`
+        `https://fred-marvel-backend.herokuapp.com/comics/${characterId}`
       );
       setData(response.data);
       setIsLoading(false);

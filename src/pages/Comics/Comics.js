@@ -22,7 +22,7 @@ const Comics = (props) => {
   useEffect(() => {
     const fetchData = async () => {
       const response = await axios.get(
-        `http://localhost:3100/comics?title=${name}&skip=${skip}&limit=${limit}`
+        `https://fred-marvel-backend.herokuapp.com/comics?title=${name}&skip=${skip}&limit=${limit}`
       );
       setData(response.data.results);
       setLimit(response.data.limit);
